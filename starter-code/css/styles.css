@@ -1,8 +1,8 @@
 body {
     background-image: url("../assets/home/background-home-desktop.jpg");
     background-size: cover;
-    line-height: 1.5;
-   font-size: 1.5em;
+    line-height: 2;
+    font-size: 1.5em;
 }
 
 .top-container {
@@ -17,6 +17,10 @@ body {
     padding: 25px;
     width: 25%;
     text-align: left;
+}
+
+.home-content-paragraph {
+    font-size: 1.25rem;
 }
 
 .space-word {
