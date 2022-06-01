@@ -21,6 +21,10 @@ header {
     text-align: right;
 }
 
+span {
+    word-spacing: 10px;
+}
+
 .nav-bar {
     color: #FFFFFF;
     backdrop-filter: blur(20px);
@@ -28,13 +32,21 @@ header {
     display: inline-block;
     margin: 50px auto;
     padding: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
-    word-spacing: 50px;
-    
-    
+    padding-left: 150px;
+    padding-right: 150px;
+    word-spacing: 40px;
 }
 
+.header-line {
+    border: 1px solid rgba(170, 168, 168, 0.151);
+    backdrop-filter: blur(20px);
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 35%;
+    margin-left: 25px;
+}
 
 .home-content-text {
     color: white;
